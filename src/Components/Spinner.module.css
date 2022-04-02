@@ -1,0 +1,16 @@
+.spinner {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 120px;
+}
+
+.spinning {
+    animation : spinner 1s  linear infinite;
+}
+/* funcion para que gire */
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}
