@@ -25,7 +25,7 @@ export function Search() {
                     onChange={(e) => {
                         const value = e.target.value;
                         history.push('/?search=' + value)
-                        //con las sentencias de arriba se actualiza el stado y se limpia el campo de busqueda siempre
+                        //con las sentencias de arriba se actualiza el stado y se limpia el campo de busqueda
 
                     }} />
                 <button className={style.searchButton} type="Submit">
